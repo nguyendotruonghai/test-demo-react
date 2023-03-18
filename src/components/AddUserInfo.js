@@ -95,7 +95,7 @@ const AddUserInfo = (props) => {
         />
         <label>Your age: </label>
         <input
-          value={this.state.age}
+          value={age}
           type="text"
           onChange={(event) => handleOnChangeAge(event)}
         />

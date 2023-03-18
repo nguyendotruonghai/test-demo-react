@@ -1,7 +1,7 @@
 // class component
 // function component
 
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import DisplayInfo from "./DisplayInfo";
 import AddUserInfo from "./AddUserInfo";
 
@@ -79,6 +79,7 @@ const MyComponent = (props) => {
     //   listUsers: listUserClone,
     // });
   };
+      
   return (
     <>
       <br />
